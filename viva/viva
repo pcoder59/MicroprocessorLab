@@ -1,0 +1,162 @@
+8086
+16 Bit Microprocessor
+16 Bit Data Bus
+20 Bit Address Bus
+Maximum 1MB RAM
+2 Functional Units, Bus Interface Unit (BIU) and Execution Unit (EU)
+
+BIU
+Transfer Data Address on Buses Necessary for EU
+
+EU
+Execute instructions received from BIU and store result in general registers
+
+8088 Accept Programs Written for 8086
+
+Registers
+
+AX
+Accumulator. Used for I/O Arithmetic and Logical Operations by Default
+16 bit AX = 8 bit AL + 8 bit AH
+
+BX
+Base Register. Used to Store Base address and only register used for offset address pointer
+16 bit BX = 8 bit BL + 8 bit BH
+
+CX
+Counter Register.
+16 bit CX = 8 bit CL + 8 bit CH
+
+DX
+Data Register. Whenever interrupt called to print data, it prints data stored in this register
+16 bit DX = 8 bit DL + 8 bit DH
+
+Index Registers SI, DI
+Segment Registers CS, DS, SS, ES
+Pointer Registers IP, BP, SP
+Flag Register
+
+1 byte of data is read at once
+
+Pointers
+
+IP
+16 bit Instruction Pointer stores offset address of next instruction to be executed
+
+BP
+16 bit Base Pointer stores the offset address of data or parameters within the stack
+
+SP
+16 bit stack pointer stores offset address of topmost element in stack
+
+8086 have 6 byte instruction queue
+
+Segments
+
+Code Segment
+Data Segment
+Stack Segment
+Extra Segment
+
+Each Segment is 64KB in size
+
+Flag Register
+16 bit
+
+STATUS FLAGS
+
+Carry Flag
+Parity Flag
+Auxilary Carry
+Zero Flag
+Sign Flag
+
+CONTROL FLAGS
+
+Trap Flag
+Interrupt Flag
+Direction Flag
+
+Assembler
+Translate Assembly Level Language to Machine Code
+
+Linker
+Combine Different objects to single executable file
+
+Loader
+Assign specific addresses for each object code during loading
+
+Debugger
+Allows step by step execution for debugging
+
+Editor
+Allows creation and editing of files containing text, program or data
+
+Compiler
+Translate high level language to machine code.
+
+STACK
+
+PUSH
+POP
+
+Addressing Modes
+
+Immediate
+Data Operand is Part of Instruction Itself
+Eg: MOV CX, 05H
+
+Register
+Register is the source of operand
+Eg: MOV CX, AX
+
+Direct
+Effective address is given directly
+Eg: MOV AX, [2000H]
+
+Register Indirect
+Data addressed through offset address in BP, BX, DI or SI
+Eg: MOV AX, [BX]
+
+Based
+Base address + displacement
+Eg: MOV AX, [BX+04]
+
+Indexed
+Index Register + displacement
+Eg: MOV AX, [SI+16]
+
+Based Indexed
+Base Register + Index Register
+Eg: MOV AX, [BX+SI]
+
+Based Indexed With Displacement
+Base Register + Index Register + Displacement
+Eg: MOV AX, [BX+SI+16]
+
+8051 Addressing Modes
+
+Immediate
+Date is provided in instruction itself
+Eg: MOV A, #4200
+
+Register
+Source or Destination is Register
+MOV A, R5
+
+Direct
+Source or destination is 8 bit data
+MOV R2, 45H
+
+Register Indirect
+Source or Destination Address is given by register
+
+MOV AX, @DPTR
+
+Indexed
+Direct + Displacement
+Eg: MOV @DPTR+2
+
+Implied
+Single operand
+Eg: RL A
