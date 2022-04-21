@@ -1,0 +1,11 @@
+Step 1: Start
+Step 2: Store input Value in a Registers
+Step 3: Store The Value in Accumulator
+Step 4: Copy Value from Accumulator to Another Register
+Step 5: Mask The Register with 0F using AND
+Step 6: Rotate Accumulator Right 4 times
+Step 7: Mask Accumulator with 0F using AND
+Step 8: Multiply Accumulator by 0A
+Step 9: Add The Register Value to Accumulator
+Step 10: Move Result to Output Register
+Step 11: Stop

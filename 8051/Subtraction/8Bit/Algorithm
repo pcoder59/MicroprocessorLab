@@ -1,0 +1,10 @@
+Step 1: Start
+Step 2: Set DPTR as input Value
+Step 3: Move Value of DPTR to Accumulator
+Step 4: Move Accumulator Value to Another Register
+Step 5: Increment DPTR
+Step 5: Move Value of DPTR to Accumulator
+Step 6: Subtract Accumulator Value and Register Value
+Step 7: Increment DPTR
+Step 8: Store Accumulator Value in DPTR
+Step 9: Stop

@@ -1,0 +1,6 @@
+Step 1: Open Command Prompt at MASM assembler location
+Step 2: Create .asm file with assembler code
+Step 3: Compile The .asm file with ML filename.asm
+Step 4: Link filename.obj
+Step 5: Execute filename.exe
+Step 6: Verify Output

@@ -1,0 +1,6 @@
+Step 1: Turn on 8086 Trainer Kit
+Step 2: Enter the Assembler using A
+Step 3: Enter Program Starting from Memory Location 1000H
+Step 4: Enter Input Values into Memory Locations 2000H and 2500H using SB
+Step 5: Execute the Program using GO 1000
+Step 6: Verify The Result At Memory Location 3000H using SB

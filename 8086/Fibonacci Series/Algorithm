@@ -1,0 +1,16 @@
+Step 1: Start
+Step 2: Store Count From Input Address to a Register
+Step 3: Store 1 in Accumulator
+Step 4: Store 0 in a Register
+Step 5: Move Register Value to Output Address
+Step 6: Move Accumulator Value to Output Address
+Step 7: Decrement Count By 2
+Step 8: Store Output Address in a Register
+Step 9: Repeat Steps 10 - 15 Till Count = 0. Then Go to Step 16
+Step 10: Move Accumulator Value to a Temp Register
+Step 11: Add Accumulator and Register
+Step 12: Store Accumulator Value in Output Address
+Step 13: Move Temp Register Value to Register
+Step 14: Increment Output Address
+Step 15: Decrement Count
+Step 16: Stop

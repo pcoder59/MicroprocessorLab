@@ -1,0 +1,13 @@
+Step 1: Turn on 8051 Trainer Kit
+Step 2: Enter Assembler Using A
+Step 3: Enter Program Starting From Address 4100H
+
+For Anticlockwise Rotation:-
+Step 4: Enter Values 0A, 05, 06, 09 at Memory Locations 4200H - 4203H using SD
+Step 5: Execute Program using GO 4100
+Step 6: Verify Rotation of Stepper Motor
+
+For Clockwise Rotation:-
+Step 4: Enter 09, 06, 05, 0A at Memory Locations 4200H - 4203H using SD
+Step 5: Execute Program using GO 4100
+Step 6: Verify Rotation of Stepper Motor

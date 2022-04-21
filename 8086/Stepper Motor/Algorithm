@@ -1,0 +1,13 @@
+Step 1: Start
+Step 2: Move Input Value to Register
+Step 3: Set Count as 4
+Step 4: Move Register Value to Accumulator
+Step 5: Send Accumulator Value to Output Port C0
+Step 6: Move 1010 to BX
+Step 7: Repeat Step 8 Till BX = 0
+Step 8: Decrement BX
+Step 9: Increment Input Register
+Step 10: Decrement Count
+Step 11: Go to Step 4 If Count != 0
+Step 12: Go to Step 2
+Step 13: Stop

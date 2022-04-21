@@ -1,0 +1,7 @@
+Step 1: Start
+Step 2: Store the Input Values and Output Address in Required Registers
+Step 3: Move Divident into Accumulator
+Step 4: Perform Division With The Divisor Using Accumulator
+Step 5: Move Quotient Into Output Address
+Step 6: Move Reminder into Output Address
+Step 7: Stop

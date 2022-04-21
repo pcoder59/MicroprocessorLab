@@ -1,0 +1,11 @@
+Step 1: Start
+Step 2: Move Input Data and Output Address into Registers
+Step 3: Clear Carry
+Step 4: Move First Operand into Accumulator
+Step 5: Add Second Operand Using Accumulator
+Step 6: Store Result in Destination Register
+Step 7: Increment Output Address Pointer
+Step 8: If no carry, go to Step 11
+Step 9: Store Carry in AL
+Step 10: Move AL to Output Address
+Step 11: Stop

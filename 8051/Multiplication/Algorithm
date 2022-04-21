@@ -1,0 +1,10 @@
+Step 1: Start
+Step 2: Store Input Address in DPTR
+Step 3: Store Value at DPTR in Accumulator
+Step 4: Store Value of Accumulator in Another Register
+Step 5: Increment DPTR
+Step 6: Store Value of DPTR in Accumulator
+Step 7: Multiply Register Value and Accumulator
+Step 8: Increment DPTR
+Step 9: Store Accumulator Value in DPTR
+Step 10: Stop

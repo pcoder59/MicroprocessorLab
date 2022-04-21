@@ -1,0 +1,13 @@
+Step 1: Start
+Step 2: Store Input Address in DPTR
+Step 3: Store 04 in R0
+Step 4: Store Value of DPTR in Accumulator
+Step 5: Push DPTR Value to Stack
+Step 6: Store FFC0 in DPTR
+Step 7: Produce Delay
+Step 8: Move Accumulator Value to DPTR
+Step 9: Pop Values into DPTR
+Step 10: Increment DPTR
+Step 11: Decrement R0 and Go to Step 4
+Step 12: Go to Step 2
+Step 13: Stop

@@ -1,0 +1,13 @@
+Step 1: Start
+Step 2: Initialize data segment
+Step 3: Declare Message as "Welcome"
+Step 4: End data segment
+Step 5: Initialize code segment
+Step 6: Assume cs:code, ds:data
+Step 7: Start Program
+Step 8: Move data to ds
+Step 9: Load msg to dx
+Step 10: Display Message on Screen
+Step 11: End code segment
+Step 12: End Program
+Step 13: Stop

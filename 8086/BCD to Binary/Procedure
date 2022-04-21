@@ -1,0 +1,6 @@
+Step 1: Turn on 8086 Trainer Kit
+Step 2: Enter the Assembler using A
+Step 3: Enter the Program Starting At Address 1000H
+Step 4: Store Input Value at 1100H using SB
+Step 5: Execute the Program using GO 1000
+Step 6: Verify the Result at Output Address Using SB

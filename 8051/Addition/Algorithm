@@ -1,0 +1,27 @@
+Step 1: Start
+Step 2: Move Input Address to DPTR
+Step 3: Move Value of DPTR to Accumulator
+Step 4: Move Accumulator Value to R0
+Step 5: Increment DPTR
+Step 6: Move Value of DPTR to Accumulator
+Step 7: Move Accumulator Value to R1
+Step 8: Increment DPTR
+Step 9: Move Value of DPTR to Accumulator
+Step 10: Move Accumulator Value to R2
+Step 11: Increment DPTR
+Step 12: Move Value of DPTR to Accumulator
+Step 14: Move Accumulator Value to R3
+Step 14: Increment DPTR
+Step 15: Clear Carry
+Step 16: Move R0 to Accumulator
+Step 17: Add R2 and Accumulator
+Step 18: Store Accumulator Value in DPTR
+Step 19: Increment DPTR
+Step 20: Move R1 to Accumulator
+Step 21: Add Accumulator and R3
+Step 22: Store Accumulator Value in DPTR
+Step 23: Increment DPTR
+Step 24: If No Carry Go to Step 27
+Step 25: Store 01 in Accumulator
+Step 26: Move Accumulator Value to DPTR
+Step 27: Stop

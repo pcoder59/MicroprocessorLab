@@ -1,0 +1,7 @@
+MOV SI, 1100
+MOV BX, [SI + 2]
+MOV AX, [SI]
+DIV BX
+MOV [SI + 4], AX
+MOV [SI + 6], DX
+HLT

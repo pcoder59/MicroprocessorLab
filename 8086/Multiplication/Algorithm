@@ -1,0 +1,7 @@
+Step 1: Start
+Step 2: Store the Input Values and Output Address into Required Registers
+Step 3: Clear Carry
+Step 4: Move First Operand Ino the Accumulator
+Step 5: Multiply With Second Operand using Accumulator
+Step 6: Store the Result in Destination Register
+Step 7: Stop

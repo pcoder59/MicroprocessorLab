@@ -1,0 +1,6 @@
+Step 1: Turn on 8051 Trainer Kit
+Step 2: Enter Assembler Using A
+Step 3: Enter Program Starting At Memory Location 4200H
+Step 4: Enter Input Values at Memory Location 4300H and 4301H Using SD
+Step 5: Execute Program Using GO 4200
+Step 6: Verify the Output at Memory Location 4302H using SD

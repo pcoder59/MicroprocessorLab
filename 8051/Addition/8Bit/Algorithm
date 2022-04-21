@@ -1,0 +1,10 @@
+Step 1: Start
+Step 2: Move Input Address to Data Pointer
+Step 3: Move Input Value to Accumulator
+Step 4: Move Accumulator Value to Another Register
+Step 5: Increment Data Pointer
+Step 6: Move Data Pointer Value to Accumulator
+Step 7: Add Register and Accumulator
+Step 8: Increment Data Pointer
+Step 9: Store Accumulator Value in Data Pointer Location
+Step 10: Stop

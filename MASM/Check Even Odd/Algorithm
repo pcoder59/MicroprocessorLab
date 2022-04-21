@@ -1,0 +1,22 @@
+Step 1: Start
+Step 2: Initialize data segment
+Step 3: Declare messages to Display on Screen
+Step 4: End Data Segment
+Step 5: Initialize Code Segment
+Step 6: Assume cs:code, ds:data
+Step 7: Start Program
+Step 8: Move data to ds
+Step 9: Load Message to Display
+Step 10: Display Message on Screen
+Step 11: Enter Number
+Step 12: Store 02 in b1
+Step 13: Divide Number by b1
+Step 14: Check Remainder
+Step 15: If No, Go to Step 18
+Step 16: Else load Message Odd to Display
+Step 17: Display Message on Screen and Go to Step 20
+Step 18: Load Message Even to Display
+Step 19: Display Message on Screen
+Step 20: End code segment
+Step 21: End Program
+Step 22: Stop
