@@ -1,0 +1,15 @@
+Step 1: Start
+Step 2: Store Input Address in Register
+Step 3: Set Counter as 10
+Step 4: Store Output Address in Register
+Step 5: Move Value of Register to Accumulator
+Step 6: Increment Register
+Step 7: Decrement Counter
+Step 8: Compare Value of Register to Accumulator Value
+Step 9: If Value of Register is Not Greater, Go to Step 11
+Step 10: Store Value of Register in Accumulator
+Step 11: Increment Register
+Step 12: Decrement Counter
+Step 13: If Counter != 0, Go to Step 5
+Step 14: Move Accumulator Value to Output Register
+Step 15: Stop
