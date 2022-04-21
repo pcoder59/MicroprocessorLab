@@ -26,6 +26,7 @@ Division of 32 Bit Number by 16 Bit<br>
 BCD to Binary Conversion<br>
 Fibonacci Series<br>
 Stepper Motor Interaction<br>
+Largest of 10 Numbers<br>
 
 <h2>8051</h2>
 
